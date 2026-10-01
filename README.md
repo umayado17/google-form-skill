@@ -1,4 +1,4 @@
-# google-form-script
+# google-form-skill
 
 > **English summary**
 > A skill for AI assistants (such as Claude) to create, edit, and export Google Forms through conversation.
@@ -42,12 +42,12 @@ Google フォームを、AI（Claude など）と対話しながら作る・直�
 ## 中身
 
 ```
-google-form-script/
+google-form-skill/
 ├─ README.md
 ├─ LICENSE
 ├─ dist/
-│   └─ google-form-script.zip   … Claude にアップロードする用
-└─ google-form-script/
+│   └─ google-form-skill.zip   … Claude にアップロードする用
+└─ google-form-skill/
     ├─ SKILL.md                 … AI が従う手順
     └─ scripts/
         └─ form-tools.gs        … 利用者に渡すスクリプトの雛形
@@ -55,9 +55,9 @@ google-form-script/
 
 ## 入れ方
 
-Claude では、スキルの画面（「あなたのスキル」→「スキルをアップロード」）で `dist/google-form-script.zip` をアップロードします。
+Claude では、スキルの画面（「あなたのスキル」→「スキルをアップロード」）で `dist/google-form-skill.zip` をアップロードします。
 
-スキルの仕組みが無い AI では、`google-form-script/SKILL.md` と `scripts/form-tools.gs` の中身を会話に貼って、「この手順に従って」と頼めば同じように使えます。
+スキルの仕組みが無い AI では、`google-form-skill/SKILL.md` と `scripts/form-tools.gs` の中身を会話に貼って、「この手順に従って」と頼めば同じように使えます。
 
 ## できないこと
 
